@@ -1,0 +1,16 @@
+<h1>Stupid coach</h1>
+
+<div class="container">
+  <p><%= @question %></p>
+  <p class="author"> -You </p>
+</div>
+
+<div class="container answer">
+  <p class="text"><%= @answer %></p>
+  <p class="author"> -Your coach</p>
+</div>
+
+<%= link_to "Ask a new question", ask_path %>
+
+<p>Find me in app/views/questions/answer.html.erb</p>
+
